@@ -36,6 +36,8 @@ class schema_group():
 
     def check_node(self, tree, node, nodename, fullname, filename):
         # Skip any generated nodes
+        print(node)
+        print(type(node))
         node['$nodename'] = [ nodename ]
         node_matched = False
         node_compatible_matched = False

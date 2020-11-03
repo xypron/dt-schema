@@ -4,7 +4,9 @@ This repository contains test code for devicetree schema validation using the
 [json-schema](http://json-schema.org/documentation.html) vocabulary. Schema
 files are written in YAML (a superset of JSON), and operate on the YAML
 encoding of Devicetree data. Devicetree data must be transcoded from DTS to
-YAML before being used by this tool.
+YAML before being used by this tool. For transcoding the
+[Device Tree Compiler](https://git.kernel.org/pub/scm/utils/dtc/dtc.git) can
+be used.
 
 ## Data Model
 
